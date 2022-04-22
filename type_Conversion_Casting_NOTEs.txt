@@ -1,0 +1,124 @@
+we can convert the following things:
+
+
+int --> float and str
+
+Ex:
+a=5
+print(float(a)) # 5.0
+print(str(a)) # 5
+
+
+float---> int and str
+
+Ex:
+b=6.7
+print(int(b)) # 6
+print(str(b)) # 6.7
+
+
+we can combine or add ,
+int+int
+float+float
+int+float 
+float+int
+
+Ex:
+
+c=3 ; d=7.4
+print(c+d) # 10.4
+
+
+
+--------------------
+
+str ---> strings cannot be converted into int or float when it has some text or word.
+Ex:
+
+s='hello'
+print(int(s)) # TypeError
+print(float(s)) # TypeError
+
+
+str --> string can be converted into int and float when it contains a number in it.
+
+Ex:
+
+x='4'
+print(type(x)) # str
+
+''' 
+Note: when the value inside the str contains a int value then we can convert it into
+int and float
+'''
+Ex:
+
+w='3'
+print(int(w)) # 3
+print(float(w)) # 3.0
+
+
+'''
+Note: when the value inside the str contains a float value then we cannot 
+convert it into int directly but we can convert it into float.
+'''
+Ex:
+
+r='5.6'
+print(int(r)) # Error
+print(float(r)) # 5.6
+d=float(r)
+print(int(d))
+
+
+-----------------------------------------------------------------------------
+
+String Concatenation:
+
+Joining or combining two or multiple strings together is called as concatenation.
+
+
+The following things can't be done:
+
+int + str
+float + str 
+
+The above two cases are not possible.
+
+Ex:
+
+x=4 ; m='py' ; v=3.2
+print(type(x)) # int
+print(type(m)) # str
+print(type(v)) # float
+print(x+m) # Error
+print(m+v) # Error
+
+
+We can do the string concatenation only with strings.
+
+we can do the concatenation with the help of '+' symbol.
+
+Ex:
+
+a='python'  ;  b='programming'
+print(a+b)  # pythonprogramming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
